@@ -1,4 +1,3 @@
-#Practising github
- 
- Learning how to use Git and Github
- new comment
+#Personal Project Portfolio
+
+A portfolio detailing my current profile and progress.

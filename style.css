@@ -180,6 +180,32 @@ footer {
   .interest__detail .interest__icon {
     padding-right: 5%;
   }
+  .project__detail {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .project__detail .project__link {
+    text-align: center;
+  }
+  .project__detail .project__link img {
+    width: 100%;
+  }
+  .project__detail figcaption {
+    font-family: "Rammetto One", sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 6%;
+  }
+  .project__detail figcaption a {
+    color: #e879f9;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .project__detail figcaption .project__photocredit {
+    font-size: 15px;
+  }
   .contact {
     font-size: 15px;
     font-family: arial;
@@ -207,6 +233,7 @@ footer {
     }*/
   }
   .contact__info--external {
+    color: #e879f9;
     font-family: arial;
     font-size: 19px;
     margin-top: 7px;
@@ -319,6 +346,32 @@ footer {
     font-weight: 600;
     color: #111827;
   }
+  .project__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project__detail .project__link {
+    text-align: center;
+  }
+  .project__detail .project__link img {
+    width: 70%;
+  }
+  .project__detail figcaption {
+    font-family: "Rammetto One", sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 6%;
+  }
+  .project__detail figcaption a {
+    color: #e879f9;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .project__detail figcaption .project__photocredit {
+    font-size: 15px;
+  }
   .hobby__caption {
     font-family: "Rammetto One", sans-serif;
     font-style: normal;
@@ -398,6 +451,7 @@ footer {
     }*/
   }
   .contact__info--external {
+    color: #e879f9;
     font-family: arial;
     font-size: 19px;
     margin-top: 7px;
@@ -559,6 +613,29 @@ footer {
   .interest__detail .interest__icon {
     padding-right: 5%;
   }
+  .project {
+    display: flex;
+    flex-direction: row;
+  }
+  .project__detail {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .project__detail img {
+    width: 100%;
+  }
+  .project__detail figcaption {
+    margin-top: 6%;
+    font-family: "Rammetto One", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .project__detail figcaption a {
+    color: #e879f9;
+    font-weight: bold;
+    text-decoration: none;
+  }
   .contact {
     font-size: 15px;
     font-family: arial;
@@ -582,6 +659,7 @@ footer {
     width: 100%;
   }
   .contact__info--external {
+    color: #e879f9;
     font-family: arial;
     font-size: 21px;
     margin-top: 7px;
