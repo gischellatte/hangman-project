@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hangman Game</title>
+    <script src="./script.js" defer></script>
+</head>
+<style>
+
+
+
+</style>
+<body>
+    <h1>Let's play Hangman</h1>
+    <h3 class="welcome-message">Welcome guest!</h3>
+    <p class="instructions">To win this game, you must guess 5 Korean cities correctly.</p>
+    <button id="playButton">I'm ready!!</button>
+    <button id="replayButton" class="element__erase">Play again</button>
+
+    <main>
+        <div id="letterDisplay" class="letter__display"></div>
+        <section id="cityGuess" class="city__guess">
+        
+        </section>
+        <div id="keyboard" class="keyboard"></div>
+        <aside id="letterButtons"></aside>
+        <section id="hangman" class="hangman">
+            <img class="hangman-pole" src="./assets/hangman.png" alt="Death pole - Hangman icons created by surang - Flaticon">
+            
+            <article class="hangman__body">
+                <div id="hangmanHead" class="hangman__body--head hangman__body--hidden"></div>
+                <div id="hangmanWaist" class="hangman__body--waist hangman__body--hidden"></div>
+                <div id="hangmanRightArm" class="hangman__body--rightArm hangman__body--hidden"></div>
+                <div id="hangmanLeftArm" class="hangman__body--leftArm hangman__body--hidden"></div>
+                <div id="hangmanRightLeg" class="hangman__body--rightLeg hangman__body--hidden"></div>
+                <div id="hangmanLeftLeg" class="hangman__body--leftLeg hangman__body--hidden"></div>
+            </article>
+        </section>
+        <section class="successful">
+            <h2 class="successful__progress">Your progress </h2>
+            <article class="successful__response"></article>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,402 @@
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .keyboard{
+        margin-top: 1px;
+    }
+    .letter__display{
+        color: #aa7b80;
+    }
+    .element__erase {
+        display: none;
+    }
+    .display__purple{
+        border: 1px solid purple;
+        color: purple;
+    }
+
+@media only screen and (max-width: 600px) {
+.hangman{
+    margin-top:5%;
+    
+    &-pole{
+    width: 55%;
+    }
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}      
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+.hangman{
+    margin-top:5%;
+    &-pole{
+    width: 25%;
+    }
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 29%;
+    left: 19%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}  
+    
+@media only screen and (min-width: 800px) and (max-width: 992px) {
+.hangman{
+    margin-top:5%;
+    
+    &-pole{
+    width: 25%;
+    }
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 36%;
+    left: 19%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}  
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+.hangman{
+    margin-top:5%;
+    
+    &-pole{
+    width: 25%;
+    }
+
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    left: 19%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1500px){
+.hangman{
+    margin-top:5%;
+    
+    &-pole{
+    width: 25%;
+    }
+
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 47.5%;
+    left: 19%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}  
+
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
+.hangman{
+    margin-top:5%;
+    
+    &-pole{
+    width: 25%;
+    }
+
+    &__body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    left: 19%;
+        &--hidden{
+            display: none;
+         }
+        &--head{
+            width: 30px;
+            height: 30px; 
+            border-radius: 50%;
+            border: 2px solid saddlebrown;
+            }
+        &--waist{
+            width: 3px; 
+            height: 53px; 
+            border: 2px solid saddlebrown;
+        }
+        &--rightArm{
+            position: relative;
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: 13px;
+            top: -46px;
+            transform: rotate(45deg);
+        }
+        &--leftArm{
+            width: 30px;
+            height: 5px;
+            border: 2px solid saddlebrown;
+            left: -13px;transform: rotate(-45deg);
+            position: relative;top: -54px;
+        }  
+        &--rightLeg{
+            width: 30px;
+            height: 4px;
+            border: 2px solid saddlebrown;
+            left: 14px;
+            transform: rotate(35deg);
+            position: relative;top: -16px;
+        }   
+        &--leftLeg{
+            width: 30px; 
+            height: 4px; 
+            border: 2px solid saddlebrown;
+            left: -14px;
+            transform: rotate(-35deg);
+            position: relative;top: -24px
+        }
+    }
+  }
+}  
