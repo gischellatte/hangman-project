@@ -1,3 +1,3 @@
-#Personal Project Portfolio
+#Hangman Portfolio
 
-A portfolio detailing my current profile and progress.
+The Hangman Game that I created using HTML, CSS and JavaScript. Enjoy playing!
